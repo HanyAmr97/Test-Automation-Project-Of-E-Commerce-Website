@@ -2,7 +2,7 @@
 
  # 💫 AutomationExercise → GUI Test Automation 💫
  ## 📌 Automate various functionalities on an E-commerce platform called "AutomationExercise"
- ### 🌐 Website Link: AutomationExercise
+ ### 🌐 Website Link: AutomationExercise   https://www.automationexercise.com/
 
 
 
