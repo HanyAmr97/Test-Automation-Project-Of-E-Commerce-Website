@@ -1,0 +1,26 @@
+<suite name="Automation Exercise ">
+        <test name="RegisterAndFalseRegister">
+            <classes>
+                <class name="Tests.TestFeatures.Register"/>
+            </classes>
+        </test>
+        <test name="LoginAndIncorrectLogin">
+            <classes>
+                <class name="Tests.TestFeatures.Login"/>
+                <class name="Tests.TestFeatures.IncorrectEmailLogin"/>
+                <class name="Tests.TestFeatures.IncorrectPasswordLogin"/>
+                <class name="Tests.TestFeatures.DeleteTheAccount"/>
+            </classes>
+        </test>
+    <test name="LogoutAndDeleteAccount">
+        <classes>
+            <class name="Tests.TestFeatures.Logout"/>
+            <class name="Tests.TestFeatures.DeleteTheAccount"/>
+        </classes>
+    </test>
+    <test name="Contact Us Form">
+        <classes>
+            <class name="Tests.TestFeatures.ContactUs"/>
+        </classes>
+    </test>
+</suite>

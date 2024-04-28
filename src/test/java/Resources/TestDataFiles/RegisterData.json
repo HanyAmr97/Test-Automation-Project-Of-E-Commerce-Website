@@ -1,0 +1,31 @@
+{
+
+
+    "Name": "HanyAmr",
+    "Email": "haniamr25@gmail.com",
+    "Password": "12345678",
+    "Day of Birth" : "21",
+    "Month of Birth" : "September",
+    "Year of Birth" : "1997",
+    "First Name" : "Hany",
+    "Last Name" : "Amr",
+    "Company" : "Benaa For Construction ",
+    "Address": "Garden City , Ismailia",
+    "Address 2": "New Maady , Cairo",
+    "Country": "Canada",
+    "State" : "Ismailia",
+    "City" : "Ismailia",
+    "Zipcode" : "41511 ",
+    "Mobile Number" : "01003776343",
+    "IncorrectEmail" : "hani25@gmail.com",
+    "IncorrectPassword" : "123456",
+    "Subject" : "I have a problem",
+    "TextArea" : "There is a problem in my login",
+    "Search Word" : "Shirt",
+    "Name on Card" :  "Hany Amr",
+    "Card Number" : "1234567890123456",
+    "CVC" : "321",
+    "Expiration Month" : "01",
+    "Expiration Year" : "2101"
+
+}

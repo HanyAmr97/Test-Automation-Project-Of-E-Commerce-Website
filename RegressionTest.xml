@@ -1,0 +1,12 @@
+<suite name="Automation Exercise ">
+    <test name="Regression Test">
+        <classes>
+            <class name="Tests.TestFeatures.TestCases"/>
+            <class name="Tests.TestFeatures.ProductsPage"/>
+            <class name="Tests.TestFeatures.SearchProduct"/>
+            <class name="Tests.TestFeatures.RemoveProduct"/>
+            <class name="Tests.TestFeatures.PlaceOrderRegisterWhileCheckout"/>
+            <class name="Tests.TestFeatures.PlaceOrderRegisterBeforeCheckout"/>
+        </classes>
+    </test>
+</suite>
