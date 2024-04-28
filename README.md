@@ -18,7 +18,7 @@
 *Page Object Model (POM) design pattern*
  *Data Driven framework*
 
- ![Screenshot allure Report](https://www.linkpicture.com/q/testngXML_2.jpg)
+
 
  ### 🔍️  Test cases Covered in this project :
  #### ✅Test Case 1: Register User
@@ -73,17 +73,7 @@
 9. Click 'Logout' button
 10. Verify that user is navigated to login page
 
-#### ✅Test Case 5: Register User with existing email
-1. Launch browser
-2. Navigate to url 'http://automationexercise.com'
-3. Verify that home page is visible successfully
-4. Click on 'Signup / Login' button
-5. Verify 'New User Signup!' is visible
-6. Enter name and already registered email address
-7. Click 'Signup' button
-8. Verify error 'Email Address already exist!' is visible
-
-#### ✅Test Case 6: Contact Us Form
+#### ✅Test Case 5: Contact Us Form
 1. Launch browser
 2. Navigate to url 'http://automationexercise.com'
 3. Verify that home page is visible successfully
@@ -94,9 +84,17 @@
 8. Click 'Submit' button
 9. Click OK button
 10. Verify success message 'Success! Your details have been submitted successfully.' is visible
-11. Click 'Home' button and verify that landed to home page successfully
+11. Click 'Home' button and verify   that landed to home page successfully
 
-#### ✅Test Case 8: Verify All Products and product detail page
+#### ✅Test Case 7: Verify Test Cases Page
+1. Launch browser
+2. Navigate to url 'http://automationexercise.com'
+3. Verify that home page is visible successfully
+4. Click on 'Test Cases' button
+5. Verify user is navigated to test cases page successfully 
+
+
+#### ✅Test Case 7: Verify All Products and product detail page
 1. Launch browser
 2. Navigate to url 'http://automationexercise.com'
 3. Verify that home page is visible successfully
@@ -107,7 +105,7 @@
 8. User is landed to product detail page
 9. Verify that detail detail is visible: product name, category, price, availability, condition, brand
 
-#### ✅Test Case 9: Search Product
+#### ✅Test Case 8: Search Product
 1. Launch browser
 2. Navigate to url 'http://automationexercise.com'
 3. Verify that home page is visible successfully
@@ -117,7 +115,7 @@
 7. Verify 'SEARCHED PRODUCTS' is visible
 8. Verify all the products related to search are visible
 
-#### ✅Test Case 10: Place Order: Register while Checkout
+#### ✅Test Case 9: Place Order: Register while Checkout
 1. Launch browser
 2. Navigate to url 'http://automationexercise.com'
 3. Verify that home page is visible successfully
@@ -138,7 +136,50 @@
 18. Verify success message 'Your order has been placed successfully!'
 19. Click 'Delete Account' button
 20. Verify 'ACCOUNT DELETED!' and click 'Continue' button
- 
+
+#### ✅Test Case 10: Place Order: Register before Checkout
+22. 1. Launch browser
+2. Navigate to url 'http://automationexercise.com'
+3. Verify that home page is visible successfully
+4. Click 'Signup / Login' button
+5. Fill all details in Signup and create account
+6. Verify 'ACCOUNT CREATED!' and click 'Continue' button
+7. Verify ' Logged in as username' at top
+8. Add products to cart
+9. Click 'Cart' button
+10. Verify that cart page is displayed
+11. Click Proceed To Checkout
+12. Verify Address Details and Review Your Order
+13. Enter description in comment text area and click 'Place Order'
+14. Enter payment details: Name on Card, Card Number, CVC, Expiration date
+15. Click 'Pay and Confirm Order' button
+16. Verify success message 'Your order has been placed successfully!'
+17. Click 'Delete Account' button
+18. Verify 'ACCOUNT DELETED!' and click 'Continue' button
+
+#### ✅Test Case 11: Remove Products From Cart
+ 1. Launch browser
+2. Navigate to url 'http://automationexercise.com'
+3. Verify that home page is visible successfully
+4. Click 'Signup / Login' button
+5. Fill all details in Signup and create account
+6. Verify 'ACCOUNT CREATED!' and click 'Continue' button
+7. Verify ' Logged in as username' at top
+8. Add products to cart
+9. Click 'Cart' button
+10. Verify that cart page is displayed
+11. Click Proceed To Checkout
+12. Verify Address Details and Review Your Order
+13. Enter description in comment text area and click 'Place Order'
+14. Enter payment details: Name on Card, Card Number, CVC, Expiration date
+15. Click 'Pay and Confirm Order' button
+16. Verify success message 'Your order has been placed successfully!'
+17. Click 'Delete Account' button
+18. Verify 'ACCOUNT DELETED!' and click 'Continue' button
+
+
+
+
 
  
  
