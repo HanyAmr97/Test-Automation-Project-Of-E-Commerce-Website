@@ -7,7 +7,7 @@ import pages.RegisterUser.HomePage;
 import pages.TestCases.TestCasesPage;
 
 public class TestCases extends SetUp_Website {
-    @Description("Test Case 8: Verify Test Cases Page")
+    @Description("Test Case 7: Verify Test Cases Page")
     @Test
     public void verifyingTestCasesPage(){
         HomePage homePage = new HomePage(driver);

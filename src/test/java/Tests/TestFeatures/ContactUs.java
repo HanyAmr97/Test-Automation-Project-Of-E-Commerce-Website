@@ -8,7 +8,7 @@ import pages.ContactUs.ContactUsPage;
 import pages.RegisterUser.HomePage;
 
 public class ContactUs extends SetUp_Website {
-    @Description("Test Case 7: Contact Us Form")
+    @Description("Test Case 6: Contact Us Form")
     @Test
     public void VerifyingContactUsForm() throws Exception {
         HomePage homePage = new HomePage(driver);

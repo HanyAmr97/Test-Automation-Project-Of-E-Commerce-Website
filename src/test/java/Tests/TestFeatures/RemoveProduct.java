@@ -9,7 +9,7 @@ import pages.Products.Products;
 import pages.RegisterUser.HomePage;
 
 public class RemoveProduct extends SetUp_Website {
-    @Description("Test Case 13: Remove Products From Cart")
+    @Description("Test Case 12: Remove Products From Cart")
     @Test
     public void VerifyingRemoveProduct() throws Exception {
         HomePage homePage = new HomePage(driver);

@@ -7,7 +7,7 @@ import pages.Products.Products;
 import pages.RegisterUser.HomePage;
 
 public class SearchProduct extends SetUp_Website {
-    @Description("Test Case 10: Search Product")
+    @Description("Test Case 9: Search Product")
     @Test
     public void VerifyingProducts() throws Exception {
         HomePage homePage = new HomePage(driver);

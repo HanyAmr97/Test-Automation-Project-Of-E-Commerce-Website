@@ -10,7 +10,7 @@ import pages.RegisterUser.*;
 import pages.RegisterUser.DeleteAccount;
 
 public class PlaceOrderRegisterBeforeCheckout extends SetUp_Website {
-    @Description("Test Case 12: Place Order: Register before Checkout")
+    @Description("Test Case 11: Place Order: Register before Checkout")
     @Test
     public void VerifyingPlaceOrder() throws Exception {
         HomePage homePage = new HomePage(driver);

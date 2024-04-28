@@ -8,7 +8,7 @@ import pages.RegisterUser.HomePage;
 import pages.RegisterUser.LoginPage;
 
 public class DeleteTheAccount extends SetUp_Website  {
-    @Description("Test Case 6: Delete account ")
+
     @Test
     public void verifyingDeleteAccount() throws Exception {
         HomePage homePage=new HomePage(driver);
