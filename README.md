@@ -11,8 +11,8 @@
 
  ### 📝 Frameworks Used in This Project:
 *Selenium Webdriver*
- *TestNG*
- *Allure Report*
+ , *TestNG*
+ , *Allure Report*
 
   ### 🏗️ The Design Of The Project :
 *Page Object Model (POM) design pattern*
