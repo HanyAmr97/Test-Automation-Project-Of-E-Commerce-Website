@@ -86,7 +86,7 @@
 10. Verify success message 'Success! Your details have been submitted successfully.' is visible
 11. Click 'Home' button and verify   that landed to home page successfully
 
-#### ✅Test Case 7: Verify Test Cases Page
+#### ✅Test Case 6: Verify Test Cases Page
 1. Launch browser
 2. Navigate to url 'http://automationexercise.com'
 3. Verify that home page is visible successfully
@@ -138,7 +138,7 @@
 20. Verify 'ACCOUNT DELETED!' and click 'Continue' button
 
 #### ✅Test Case 10: Place Order: Register before Checkout
-22. 1. Launch browser
+1. Launch browser
 2. Navigate to url 'http://automationexercise.com'
 3. Verify that home page is visible successfully
 4. Click 'Signup / Login' button
@@ -158,7 +158,7 @@
 18. Verify 'ACCOUNT DELETED!' and click 'Continue' button
 
 #### ✅Test Case 11: Remove Products From Cart
- 1. Launch browser
+1. Launch browser
 2. Navigate to url 'http://automationexercise.com'
 3. Verify that home page is visible successfully
 4. Click 'Signup / Login' button
