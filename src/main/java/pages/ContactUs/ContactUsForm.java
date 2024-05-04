@@ -28,7 +28,7 @@ public class ContactUsForm {
 
     protected WebDriver driver;
 
-    //Constructor for the page
+    //Constructor for the  page
     public ContactUsForm(WebDriver driver) {
         this.driver = driver;
     }
