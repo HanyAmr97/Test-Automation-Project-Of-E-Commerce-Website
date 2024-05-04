@@ -20,7 +20,14 @@ public class ContactUs extends SetUp_Website {
 
         ContactUsForm contactUsForm = new ContactUsForm(driver);
         contactUsForm.contactForm();
-        contactUsForm.ContactUsFormMessage();
+       String message = contactUsForm.ContactUsFormMessage();
+       if (message.contains("successfully"))
+       {
+           System.out.println("Your form have been submitted successfully!!");
+       }
+       else {
+           System.out.println("Your form have not been submitted successfully!!");
+       }
         contactUsForm.returnToHomePage();
     }
 }

@@ -10,25 +10,25 @@ public class Logout extends SetUp_Website {
     @Test
     public void verifyingLogout() throws Exception {
 
-        HomePage homePage=new HomePage(driver);
+        HomePage homePage = new HomePage(driver);
         homePage.openUrl(website);
         homePage.clickOnSignupLogin();
 
-        SignUpPage signUp=new SignUpPage(driver);
+        SignUpPage signUp = new SignUpPage(driver);
         signUp.assertSignupPage();
         signUp.userSignup();
 
-        AccountInformation accountInformation=new AccountInformation(driver);
+        AccountInformation accountInformation = new AccountInformation(driver);
         accountInformation.setAccountInformation("mr");
 
-        AddressInformation addressInformation=new AddressInformation(driver);
+        AddressInformation addressInformation = new AddressInformation(driver);
         addressInformation.setAddressInformation();
 
-        AccountCreated accountCreated=new AccountCreated(driver);
+        AccountCreated accountCreated = new AccountCreated(driver);
         accountCreated.assertAccountCreatedPage();
         accountCreated.verifyAccountCreation();
 
-        LogoutAccount logout=new LogoutAccount(driver);
+        LogoutAccount logout = new LogoutAccount(driver);
         logout.logoutUser();
         logout.assertLogout();
 

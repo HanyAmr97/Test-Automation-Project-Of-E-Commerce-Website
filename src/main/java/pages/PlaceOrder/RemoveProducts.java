@@ -15,14 +15,14 @@ public class RemoveProducts {
     final By addToCardBtn = By.xpath("//button[@class='btn btn-default cart']");
     final By continueShopping = By.xpath("//button[contains(text(),'Continue Shopping')]");
     final By cartPage = By.xpath("//i[@class='fa fa-shopping-cart']");
-    final By proceedCheckout =By.xpath("//a[contains(text(),'Proceed To Checkout')]");
+    final By proceedCheckout = By.xpath("//a[contains(text(),'Proceed To Checkout')]");
 
 
     protected WebDriver driver;
 
     //Constructor for the page
-    public RemoveProducts(WebDriver driver){
-        this.driver=driver;
+    public RemoveProducts(WebDriver driver) {
+        this.driver = driver;
     }
 
 
@@ -37,14 +37,14 @@ public class RemoveProducts {
     }
 
     //Deleting the product
-    public void deleteProduct(){
+    public void deleteProduct() {
         driver.findElement(deleteItem).click();
     }
 
     //asserting that the product is deleted
-    public void assertDeletedProduct(){
+    public void assertDeletedProduct() {
         SoftAssert softAssert = new SoftAssert();
-        softAssert.assertEquals(driver.findElement(emptyMessage).getText(),"Cart is empty!");
+        softAssert.assertEquals(driver.findElement(emptyMessage).getText(), "Cart is empty!");
         System.out.println("Cart is empty!");
     }
 

@@ -11,34 +11,34 @@ public class Login extends SetUp_Website {
     @Description("Test Case 2:  Login User with correct email and password")
     @Test
     public void verifySuccessfulLogin() throws Exception {
-        HomePage homePage=new HomePage(driver);
+        HomePage homePage = new HomePage(driver);
         homePage.openUrl(website);
         homePage.clickOnSignupLogin();
 
-        SignUpPage signUp=new SignUpPage(driver);
+        SignUpPage signUp = new SignUpPage(driver);
         signUp.assertSignupPage();
         signUp.userSignup();
 
-        AccountInformation accountInformation=new AccountInformation(driver);
+        AccountInformation accountInformation = new AccountInformation(driver);
         accountInformation.setAccountInformation("mr");
 
-        AddressInformation addressInformation=new AddressInformation(driver);
+        AddressInformation addressInformation = new AddressInformation(driver);
         addressInformation.setAddressInformation();
 
-        AccountCreated accountCreated=new AccountCreated(driver);
+        AccountCreated accountCreated = new AccountCreated(driver);
         accountCreated.assertAccountCreatedPage();
         accountCreated.verifyAccountCreation();
 
-        LogoutAccount logout=new LogoutAccount(driver);
+        LogoutAccount logout = new LogoutAccount(driver);
         logout.logoutUser();
         logout.assertLogout();
 
-        LoginPage login=new LoginPage(driver);
+        LoginPage login = new LoginPage(driver);
         login.assertLoginPage();
         login.loginVerification();
         login.assertLoginVerification();
 
-        DeleteAccount deleteAccount=new DeleteAccount(driver);
+        DeleteAccount deleteAccount = new DeleteAccount(driver);
         deleteAccount.accountDelete();
     }
 

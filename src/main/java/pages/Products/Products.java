@@ -12,32 +12,32 @@ import java.util.NoSuchElementException;
 public class Products {
 
     final By productsPage = By.xpath("//i[@class='material-icons card_travel']");
-    final By allProductText=By.xpath("//h2[contains(text(),'All Products')]");
+    final By allProductText = By.xpath("//h2[contains(text(),'All Products')]");
     final By productsList = By.xpath("//div[@class='productinfo text-center']");
     final By firstProduct = By.xpath("//a[@href='/product_details/1']");
 
     protected WebDriver driver;
 
     //Constructor for the page
-    public Products(WebDriver driver){
-        this.driver=driver;
+    public Products(WebDriver driver) {
+        this.driver = driver;
     }
 
     //open the products page
-    public void getProductsPage(){
+    public void getProductsPage() {
         driver.findElement(productsPage).click();
 
     }
 
     //asserting the product page
-    public void assertProductsPage(){
-        SoftAssert softAssert=new SoftAssert();
-        softAssert.assertEquals(driver.findElement(allProductText).getText(),"ALL PRODUCTS");
+    public void assertProductsPage() {
+        SoftAssert softAssert = new SoftAssert();
+        softAssert.assertEquals(driver.findElement(allProductText).getText(), "ALL PRODUCTS");
         softAssert.assertAll();
     }
 
     //asserting the product list
-    public void assertProductsList(){
+    public void assertProductsList() {
         List<WebElement> productElements = driver.findElements(productsList);
 
         // Ensure there are products found
@@ -54,8 +54,8 @@ public class Products {
     }
 
     //Choosing the first product
-    public void getFirstProduct(){
-    driver.findElement(firstProduct).click();
+    public void getFirstProduct() {
+        driver.findElement(firstProduct).click();
 
     }
 
