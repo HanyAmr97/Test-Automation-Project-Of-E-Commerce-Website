@@ -11,12 +11,12 @@ public class IncorrectPasswordLogin extends SetUp_Website {
     @Test
     public void verifyIncorrectPasswordLogin() throws Exception {
 
-    HomePage homePage=new HomePage(driver);
-    homePage.openUrl(website);
-    homePage.clickOnSignupLogin();
+        HomePage homePage = new HomePage(driver);
+        homePage.openUrl(website);
+        homePage.clickOnSignupLogin();
 
-    Incorrect_login incorrectPassword= new Incorrect_login(driver);
-    incorrectPassword.incorrectPasswordVerification();
+        Incorrect_login incorrectPassword = new Incorrect_login(driver);
+        incorrectPassword.incorrectPasswordVerification();
     }
 
 }

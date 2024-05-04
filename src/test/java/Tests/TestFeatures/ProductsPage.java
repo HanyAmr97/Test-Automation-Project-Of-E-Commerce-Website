@@ -10,7 +10,7 @@ import pages.RegisterUser.HomePage;
 public class ProductsPage extends SetUp_Website {
     @Description("Test Case 8: Verify All Products and product detail  page")
     @Test
-    public void VerifyingProducts() throws Exception {
+    public void VerifyingProducts() {
         HomePage homePage = new HomePage(driver);
         homePage.openUrl(website);
 
@@ -20,7 +20,7 @@ public class ProductsPage extends SetUp_Website {
         products.assertProductsList();
         products.getFirstProduct();
 
-        FirstProduct firstProduct=new FirstProduct(driver);
+        FirstProduct firstProduct = new FirstProduct(driver);
         firstProduct.firstProductDetails();
     }
 

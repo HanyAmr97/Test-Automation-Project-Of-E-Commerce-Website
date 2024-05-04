@@ -21,7 +21,7 @@ public class RemoveProduct extends SetUp_Website {
         products.assertProductsList();
         products.getFirstProduct();
 
-        RemoveProducts removeProducts=new RemoveProducts(driver);
+        RemoveProducts removeProducts = new RemoveProducts(driver);
         removeProducts.makeOrder();
         removeProducts.deleteProduct();
         removeProducts.assertDeletedProduct();

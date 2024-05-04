@@ -10,18 +10,18 @@ public class ContactUsPage {
     protected WebDriver driver;
 
     //Constructor for the page
-    public ContactUsPage(WebDriver driver){
-        this.driver=driver;
+    public ContactUsPage(WebDriver driver) {
+        this.driver = driver;
     }
 
     //open the contact us page
-    public void getContactUsPage(){
+    public void getContactUsPage() {
         driver.findElement(contactUsPage).click();
     }
 
     //asserting the contact us page
-    public void assertContactUsPage(){
-        Assert.assertEquals(driver.getTitle(),"Automation Exercise - Contact Us");
+    public void assertContactUsPage() {
+        Assert.assertEquals(driver.getTitle(), "Automation Exercise - Contact Us");
     }
 
 }
