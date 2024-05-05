@@ -3,7 +3,7 @@ package pages.TestCases;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.testng.asserts.SoftAssert;
-import pages.RegisterUser.HomePage;
+
 
 public class TestCasesPage {
 
@@ -26,7 +26,7 @@ public class TestCasesPage {
     public void assertTestCasesPage() {
         SoftAssert softAssert = new SoftAssert();
         softAssert.assertEquals
-                (driver.getTitle(), "Automation Practice Website for UI Testing - Test Cases");
+                (driver.getTitle(), "Automation Exercise");
         softAssert.assertAll();
     }
 
