@@ -1,13 +1,12 @@
 pipeline {
     agent any
 
-    stages {
-        stage('Checkout') {
-            steps {
-                // Checkout the source code from Git
-                git 'https://github.com/HanyAmr97/Test-Automation-Project-Of-E-Commerce-Website.git'
-            }
+    stage('Checkout') {
+        steps {
+            git branch: 'Format_Code', url: 'https://github.com/HanyAmr97/Test-Automation-Project-Of-E-Commerce-Website.git', credentialsId: 'your-credentials-id'
         }
+    }
+
         stage('Build') {
             steps {
                 // Run Maven build
