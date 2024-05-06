@@ -5,7 +5,7 @@ pipeline {
         stage('Checkout') {
             steps {
                 // Checkout the source code from Git
-                git 'https://github.com/yourusername/your-repo.git'
+                git 'https://github.com/HanyAmr97/Test-Automation-Project-Of-E-Commerce-Website.git'
             }
         }
         stage('Build') {
