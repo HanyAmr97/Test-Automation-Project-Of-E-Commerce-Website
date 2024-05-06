@@ -1,28 +1,27 @@
 pipeline {
     agent any
 
-    stage('Checkout') {
-        steps {
-            git branch: 'Format_Code', url: 'https://github.com/HanyAmr97/Test-Automation-Project-Of-E-Commerce-Website.git', credentialsId: 'your-credentials-id'
+    stages {
+        stage('Checkout') {
+            steps {
+                git 'https://github.com/HanyAmr97/Test-Automation-Project-Of-E-Commerce-Website.git'
+            }
         }
-    }
 
         stage('Build') {
             steps {
-                // Run Maven build
                 sh 'mvn clean package'
             }
         }
+
         stage('Test') {
             steps {
-                // Run Maven tests
                 sh 'mvn test -Dtest=SmokeTest'
             }
         }
+
         stage('Deploy') {
             steps {
-                // Deploy your artifact (if needed)
-                // Example: deploy to a Maven repository
                 sh 'mvn deploy'
             }
         }
