@@ -26,7 +26,7 @@ public class TestCasesPage {
     public void assertTestCasesPage() {
         SoftAssert softAssert = new SoftAssert();
         softAssert.assertEquals
-                (driver.getTitle(), "Automation Exercise");
+                (driver.getTitle(), "Automation Practice Website for UI Testing - Test Cases");
         softAssert.assertAll();
     }
 
