@@ -16,7 +16,6 @@
                 <suiteFile>SmokeTest.xml</suiteFile>
                 <suiteFile>RegressionTest.xml</suiteFile>
 
-
     </properties>
 
     <dependencies>
