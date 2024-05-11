@@ -17,7 +17,6 @@
                 <suiteFile>RegressionTest.xml</suiteFile>
 
 
-
     </properties>
 
     <dependencies>
